@@ -1,12 +1,12 @@
 import qrcode
 
-# GitHub Pages URL with bluerock-menu.qr repository
-github_url = "https://aeb0508.github.io/bluerock-menu.qr/"
+# Netlify deployment URL
+netlify_url = "https://bluerock-menu.netlify.app/"
 
-img = qrcode.make(github_url)
+img = qrcode.make(netlify_url)
 img.save("qr-code.png")
 
 print(f"✓ QR code generated: qr-code.png")
-print(f"✓ Points to: {github_url}")
-print(f"\nRepository name: bluerock-menu.qr")
-print(f"GitHub username: aeb0508")
+print(f"✓ Points to: {netlify_url}")
+print(f"\nDeployed on Netlify")
+print(f"Site: https://bluerock-menu.netlify.app/")
