@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blue Rock by Blue Bay - Menu</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            width: 100%;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.95;
+        }
+        
+        .content {
+            padding: 30px 20px;
+        }
+        
+        .menu-image {
+            width: 100%;
+            max-width: 700px;
+            margin: 0 auto 30px;
+            display: block;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            max-height: 600px;
+            object-fit: contain;
+        }
+        
+        .button-group {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 14px 28px;
+            font-size: 1em;
+            font-weight: bold;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            text-align: center;
+        }
+        
+        .btn-instagram {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+        
+        .btn-instagram:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
+        }
+        
+        .footer {
+            text-align: center;
+            color: #666;
+            font-size: 0.9em;
+            padding: 20px;
+            border-top: 1px solid #eee;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🍽️ Blue Rock by Blue Bay</h1>
+            <p>Our Restaurant Menu</p>
+        </div>
+        
+        <div class="content">
+            <iframe src="https://drive.google.com/file/d/1aZowB6GrNyALaxIlz_RqM91CvOzeG1r5/preview" width="100%" height="500" style="border-radius: 10px; border: none; margin-bottom: 30px;"></iframe>
+            
+            <!-- <div style="text-align: center; margin-bottom: 20px;">
+                <a href="https://drive.google.com/file/d/1aZowB6GrNyALaxIlz_RqM91CvOzeG1r5/view?usp=drive_link" target="_blank" class="btn btn-instagram" style="display: inline-block;">
+                    📄 View Menu in Google Drive
+                </a>
+            </div> -->
+            
+            <div class="button-group">
+                <a href="https://www.instagram.com/bluerock_by_bluebay/" class="btn btn-instagram" target="_blank">
+                    📸 Follow on Instagram
+                </a>
+            </div>
+            
+            <div class="footer">
+                <p>📱 Scan the QR code to view our menu</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
